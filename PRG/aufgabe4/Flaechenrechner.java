@@ -1,8 +1,8 @@
-package aufgabe3;
+package aufgabe4;
 
 import javax.swing.JOptionPane;
 
-public class Fächenrechner {
+public class Flaechenrechner {
 	public static void main(String[] args) {
 		String sA ;
 		sA = JOptionPane.showInputDialog(null, "Bitte geben sie die Länge in metern an." , "z.b. 4.5");
@@ -18,6 +18,8 @@ public class Fächenrechner {
 		
 		double ergebnis;
 		ergebnis = a * b ;
+		
+		ergebnis = Math.round(ergebnis * 1000) / 1000;
 		
 		JOptionPane.showMessageDialog(null, "Der Flächeninhalt beträgt: " + ergebnis + " m²");
 	}
