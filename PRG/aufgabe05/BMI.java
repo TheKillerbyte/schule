@@ -1,4 +1,4 @@
-package aufgabe2;
+package aufgabe05;
 
 import javax.swing.JOptionPane;
 
@@ -19,6 +19,14 @@ public class BMI {
 		double bmi;
 		bmi = gewicht / (groesse * groesse);
 		
-		JOptionPane.showMessageDialog(null, "Ihr bmi beträgt: " + bmi);
+		bmi = Math.round(bmi * 100) / 100;
+		
+		if (bmi < 20){
+			JOptionPane.showMessageDialog(null, "Ihr Bmi beträgt: " + bmi + " infolge dessen sind sie untergewichtig." );
+		}else if (bmi > 25){
+			JOptionPane.showMessageDialog(null, "Ihr Bmi beträgt: " + bmi + " infolge dessen sind sie übergewichtig." );
+		}else{
+			JOptionPane.showMessageDialog(null, "Ihr Bmi beträgt: " + bmi + " infolge dessen sind sie normalgewichtig." );
+		}
 	}
 }

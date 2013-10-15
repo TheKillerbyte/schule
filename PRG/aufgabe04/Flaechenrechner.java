@@ -1,4 +1,4 @@
-package aufgabe4;
+package aufgabe04;
 
 import javax.swing.JOptionPane;
 
