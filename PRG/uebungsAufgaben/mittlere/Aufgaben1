@@ -1,0 +1,10 @@
+Aufgaben 1:
+
+Erstellen sie ein Program welches den Satz des Pythagoras nutzt.
+Hier gibt es eine Funktion für das Quadrat (oder einfach a*a rechnen )Math.pow(zahl , exponent) Math.sqrt(double) gibt die wurzel wieder;
+
+Erstellen sie ein Program welches Ihnen ermöglicht verschiedene Flächen zuberechnen.
+entweder if mit zahl oder JOptionPane.showOptionDialog(null, "text über Feld" , "Der Title" , JOptionPane.DEFAULT_OPTION , JOptionPane.PLAIN_MESSAGE , (Bild oder) null , eine Array mit zur auswahl stehenden sachen({"hier ist element mit index 0" , "hier kommt element mit index 1") , 0 (was am anfang ausgewählt werden soll));
+
+Erstellen sie ein Program welches nur erfolgreich zu ende geht wenn die Eingabe dem Namen des Authors übereinstimmt.
+

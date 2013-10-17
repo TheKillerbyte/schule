@@ -1,0 +1,15 @@
+Aufgaben 1:
+
+
+Erstellen sie ein Program welches den Flächeninhalt eines Dreiecks berrechnet.
+
+
+Erstellen sie ein Program welches den Flächeninhalt eines Quadrates berrechnet.
+
+
+Erstellen sie ein Program welches einen statischen Wert in einer anderen Methode in der selben klasse nutzt.
+public static void methodenName(parameterTyp parameter, .....){ ... }
+Am anfang hierzu steht von wo aus diese Methode aufgerufen werden kann. An zweiter stelle in kann static stehen muss es aber nicht.
+an Dritter Stelle steht was für einen WiedergabeVariante benutzt wird(der Datentyp , oder das Objekt) es kann nur ein Objekt oder Variable zurückgegeben werden
+dannach kommt der name hierbei ist nicht viel zu beachten klein am anfang und dann CamelCase
+zu den Parametern später mehr

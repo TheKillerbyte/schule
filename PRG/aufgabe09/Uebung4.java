@@ -5,8 +5,7 @@ import javax.swing.JOptionPane;
 public class Uebung4 {
 	public static void main(String[] args) {
 		String eingabe;
-		eingabe = JOptionPane.showInputDialog(null,
-				"Bitte egben sie den Monat an", "minimum ist 1 maximum ist 12");
+		eingabe = JOptionPane.showInputDialog(null,"Bitte geben sie den Monat an", "minimum ist 1 maximum ist 12");
 
 		int iEingabe;
 		iEingabe = Integer.parseInt(eingabe);
