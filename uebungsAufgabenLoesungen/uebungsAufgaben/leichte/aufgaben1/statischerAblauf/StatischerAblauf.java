@@ -27,7 +27,7 @@ public class StatischerAblauf {
 			System.exit(1);
 			break;
 		}
-		
+		auswahl();
 		
 		
 	}

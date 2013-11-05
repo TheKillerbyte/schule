@@ -50,7 +50,7 @@ public class Uebung4 {
 			break;
 
 		default:
-			System.err.println("Leider ist ihre eingabe nicht in dem Werte Berreich daher existiert der monat nicht");
+			System.err.println("");
 			System.exit(1);
 			break;
 		}

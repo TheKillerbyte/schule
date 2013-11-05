@@ -2,6 +2,7 @@ package neben;
 
 
 public class VariablenTypen {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		boolean wahrOderFalsch = true; // false
 		
